@@ -15,6 +15,12 @@ import {
   Bot,
   Check,
   ArrowRight,
+  Mail,
+  Database,
+  MessageSquareText,
+  Receipt,
+  BarChart3,
+  Zap,
 } from "lucide-react";
 
 /* ─── animation helpers ─── */
@@ -281,6 +287,58 @@ export default function Home() {
               </div>
             ))}
           </motion.div>
+        </div>
+      </Section>
+
+      {/* ════════════════════════════════════════
+         2b. CONCRETE EXAMPLES
+         ════════════════════════════════════════ */}
+      <Section id="examples">
+        <motion.p variants={fade} className="text-center text-sm font-semibold uppercase tracking-widest text-blue-400">
+          Real-World Automation
+        </motion.p>
+        <motion.h2
+          variants={fade}
+          custom={1}
+          className="mt-3 text-center font-display text-3xl font-bold tracking-tight text-white sm:text-4xl"
+        >
+          What can an AI Agent actually do?
+        </motion.h2>
+        <motion.p
+          variants={fade}
+          custom={2}
+          className="mx-auto mt-4 max-w-2xl text-center text-zinc-400"
+        >
+          Forget the buzzwords. Here are six specific, high-value tasks an AI
+          agent executes autonomously — every single day, without supervision.
+        </motion.p>
+
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <Card icon={Mail} title="Inbox Triage & Drafting" i={0} accent="blue">
+            Reads every incoming email, categorizes by urgency, and drafts
+            personalized replies in your exact tone of voice.
+          </Card>
+          <Card icon={Database} title="CRM Data Entry" i={1} accent="violet">
+            Listens to your sales calls or reads meeting transcripts,
+            automatically extracting action items and updating
+            Salesforce/HubSpot.
+          </Card>
+          <Card icon={MessageSquareText} title="24/7 Lead Qualification" i={2} accent="rose">
+            Engages website visitors instantly, asks qualifying questions, and
+            books high-intent leads directly onto your calendar.
+          </Card>
+          <Card icon={Receipt} title="Invoice & Expense Processing" i={3} accent="blue">
+            Monitors an inbox for PDF invoices, extracts line items via Vision
+            AI, and pushes the data directly into QuickBooks.
+          </Card>
+          <Card icon={BarChart3} title="Competitor Price Monitoring" i={4} accent="violet">
+            Scrapes competitor websites daily, tracking price changes and
+            automatically adjusting your eCommerce listings to maintain margins.
+          </Card>
+          <Card icon={Zap} title="Algorithmic Trade Execution" i={5} accent="rose">
+            Monitors live stock/crypto data streams and executes trades via API
+            the millisecond your custom mathematical parameters are met.
+          </Card>
         </div>
       </Section>
 
