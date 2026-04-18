@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-display: var(--font-display);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 50%, #f472b6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass card effect */
+.glass {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* Subtle grid background */
+.grid-bg {
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.03) 1px,
+    transparent 1px
+  );
+  background-size: 32px 32px;
+}
+
+/* Glow effect for CTA */
+.glow {
+  box-shadow: 0 0 40px rgba(96, 165, 250, 0.15),
+    0 0 80px rgba(167, 139, 250, 0.08);
+}

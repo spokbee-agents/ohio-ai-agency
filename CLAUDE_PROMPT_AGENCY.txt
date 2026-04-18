@@ -1,0 +1,35 @@
+You are an Elite Frontend Engineer building a landing page for Karina's new AI Assistant development agency targeting local businesses in Ohio.
+Tech Stack: Next.js App Router, Tailwind CSS, Framer Motion, Lucide React.
+Vibe: Trustworthy, professional B2B, modern tech (dark mode or clean corporate light mode - pick a stunning high-end aesthetic).
+
+Please completely rewrite `src/app/page.tsx` and `src/app/globals.css` (if necessary) to include the following sections:
+
+1. **Hero Section**: 
+- Headline: "Hire your first AI employee. Custom-built in Ohio."
+- Subtitle: "We design, train, and deploy autonomous AI assistants for your personal life and your business. Reclaim your time, scale your customer service, or automate your trading."
+- Call to Action button: "Book a Free Consultation"
+
+2. **What is an AI Assistant?**:
+- Explain that an AI Assistant isn't just a chatbot—it's a digital worker that has access to your software tools, understands your business data, and executes complex tasks autonomously. It answers emails, analyzes spreadsheets, talks to customers, and works 24/7.
+
+3. **What We Build (Use Cases)**: (Use nice cards/icons)
+- **The Customer Service Rep:** Handles 80% of inbound queries, books appointments, and resolves tickets instantly.
+- **The Personal Executive:** Drafts your emails, organizes your calendar, and conducts deep internet research for you.
+- **The Algorithmic Trader:** Analyzes market data streams, monitors stock tickers, and executes trades based on your exact mathematical parameters.
+
+4. **How It Works (Architecture & Privacy)**: (Crucial differentiator)
+- Explain the choices the customer has:
+  - **The Brain:** Choose between ultra-powerful Paid Frontier Models (GPT-4o, Claude 3.5) for complex reasoning, or Open-Source Models (Llama 3) for absolute data privacy and zero subscription fees.
+  - **The Hosting:** Run your agent in the Cloud for massive scalability, or Host it Locally on your own office computer so your sensitive business data never leaves the building.
+
+5. **Pricing & Packages**: (Transparent pricing ranges)
+- **Personal Assistant ($1,000 - $2,500):** Standard integrations (Email, Calendar), cloud-hosted, using frontier models. Perfect for individuals reclaiming their time.
+- **Business Rep ($2,500 - $5,000):** Customer-facing AI trained on your company's documents, integrated directly into your website or CRM.
+- **Enterprise & Specialized ($5,000+):** High-stakes agents (like trading bots), locally hosted open-source models, deep system access, custom guardrails.
+
+Tasks:
+1. `npm install framer-motion lucide-react`
+2. Update `src/app/layout.tsx` to include elegant fonts (e.g., Inter for UI, and a nice Display font).
+3. Overwrite `src/app/page.tsx` entirely with a single-page interactive layout using `framer-motion` for smooth scroll reveals.
+4. Commit everything to git with message "feat: build ohio ai agency landing page v1" and push to the remote repository.
+5. Exit gracefully.
